@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "target": "es2015",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        // We are using react-native as the value of the jsx option to prevent
+        // the typescript compiler from compiling the jsx sing React.createElement.
+        "jsx": "react-native",
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "es2015",
+            "es2016",
+            "dom"
+        ]
+    }
+}

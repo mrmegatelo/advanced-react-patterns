@@ -1,0 +1,10 @@
+# We are using mainly typescript in this project. So ignore eslint of 
+# the compiled javascript files generated from typescript.
+/stories/
+/components/
+
+# node_modules
+/node_modules
+
+# postcss config
+postcss.config.js

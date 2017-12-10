@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "components/**/*.js": true,
+        "components/**/*.map": true,
+        "stories/**/*.js": true,
+        "stories/**/*.map": true,
+        "patterns/**/*.js": true,
+        "patterns/**/*.map": true
+    }
+}
